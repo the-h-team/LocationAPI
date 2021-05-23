@@ -27,7 +27,7 @@ Accessing our test warp from a different plugin without dependency injection
 ## Providing the API
 ---
 
-First you will need to create an implementation of the interface [**LocationAPI**]()
+First you will need to create an implementation of the interface [**LocationAPI**](https://github.com/the-h-team/LocationAPI/blob/0e4f18596da1930fdcc3a19c9bfa936232b5af92/src/main/java/com/github/sanctum/locationapi/implement/LocationAPI.java#L9)
 
 Go ahead and get familiar with the [**Warp**](https://github.com/the-h-team/LocationAPI/blob/30a3a6dd2c293a55d26ba81a45cc69de5bffe0da/src/main/java/com/github/sanctum/locationapi/implement/Warp.java#L6) & [**WarpHolder**](https://github.com/the-h-team/LocationAPI/blob/30a3a6dd2c293a55d26ba81a45cc69de5bffe0da/src/main/java/com/github/sanctum/locationapi/implement/WarpHolder.java#L6) objects if you plan on having full support.
 
