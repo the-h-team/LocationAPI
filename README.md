@@ -105,7 +105,7 @@ Since everyones inner api differs you are responsible for filling out the inner 
 
 - **Player**:
 ```JAVA
-public class MyPlayerHolder extends PlayerHolder implements WarpHolder {
+public class MyPlayerHolder extends PlayerHolder {
 
 	public MyPlayerHolder(UUID id) {
 		super(Bukkit.getOfflinePlayer(id));
