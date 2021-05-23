@@ -61,7 +61,7 @@ public class MyAPI implements LocationAPI {
 
 	@Override
 	public WarpHolder getHolder(UUID id) {
-		return null;
+		return new MyPlayerHolder(id);
 	}
 
 	@Override
@@ -178,4 +178,10 @@ public class MyPrivateWarp extends PrivateWarp {
 		super(location, name);
 	}
 }
+```
+
+Finally don't forget to register your interface into the services manager!
+
+```JAVA
+	Schedule.sync(() -> Bukkit.getServicesManager().register(LocationAPI.class, new MyAPI(), Plugin plugin, ServicePriority.High)).wait(3);
 ```
