@@ -5,7 +5,7 @@ Welcome to the start of the LocationAPI wiki. Below you will find examples on de
 location communication without the need to dependency injection. Similar to how [Vault]() or [Enterprise]() utilize the Bukkit services manager to register implementations,
 as does this.
 
-## Using the API
+### Using the API
 ---
 
 Accessing our test warp from a different plugin without dependency injection
@@ -24,7 +24,7 @@ Accessing our test warp from a different plugin without dependency injection
 				
 ```
 
-## Providing the API
+### Providing the API
 ---
 
 First you will need to create an implementation of the interface [**LocationAPI**](https://github.com/the-h-team/LocationAPI/blob/0e4f18596da1930fdcc3a19c9bfa936232b5af92/src/main/java/com/github/sanctum/locationapi/implement/LocationAPI.java#L9)
